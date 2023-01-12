@@ -1,0 +1,15 @@
+$color-primary: #d32f2f;
+$color-primary-text: white;
+
+$color-background: #212121;
+$color-text: invert($color-background);
+
+$border-radius: 5px;
+$user-avatar-radius: 100%;
+
+@mixin flex($direction: row, $justify: flex-start, $align: flex-start) {
+	display: flex;
+	flex-direction: $direction;
+	justify-content: $justify;
+	align-items: $align;
+}
